@@ -1,0 +1,504 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 12:18:39
+* VERSION: 1.4.2
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.3                                 |7.4.3
+OS__________________: Linux                                 |Linux
+CREATED_____________: 2021-07-29 15:26:11
+WP VERSION__________: 5.8
+DUP VERSION_________: 1.4.2
+DB__________________: 10.3.29
+DB TABLES___________: 35
+DB ROWS_____________: 2,282
+DB FILE SIZE________: 3.8MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.3 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.41 (Ubuntu)
+DOC ROOT____________: "/var/www/wordpress"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "https://127.0.1.1/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1407
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1216
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/var/www/wordpress/isc_20210729_[HASH]_20210729152611_archive.zip"
+SIZE________________: 38.6MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '775'
+    -FILES: '654'
+[PHP ERR][WARN] MSG:chmod(): Operation not permitted [CODE:2|FILE:/var/www/wordpress/dup-installer/lib/snaplib/class.snaplib.u.io.php|LINE:690]
+Permissions setting on file '/var/www/wordpress/isc.WordPress.2021-07-29.xml' failed
+[PHP ERR][WARN] MSG:chmod(): Operation not permitted [CODE:2|FILE:/var/www/wordpress/dup-installer/lib/snaplib/class.snaplib.u.io.php|LINE:690]
+Permissions setting on file '/var/www/wordpress/installer.php' failed
+[PHP ERR][WARN] MSG:chmod(): Operation not permitted [CODE:2|FILE:/var/www/wordpress/dup-installer/lib/snaplib/class.snaplib.u.io.php|LINE:690]
+Permissions setting on file '/var/www/wordpress/isc_20210729_[HASH]_20210729152611_archive.zip' failed
+
+STEP-1 COMPLETE @ 12:18:43 - RUNTIME: 4.2615 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 12:27:42
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.3.30 -- Build Server: 10.3.29
+FILE SIZE:	dup-database__[HASH].sql (1.72MB)
+TIMEOUT:	5000
+MAXPACK:	16777216
+SQLMODE:	STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/var/www/wordpress/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	310
+
+Event_Keywords: (0)
+Event_Performances: (0)
+Event_Performers: (0)
+Events: (3)
+Keywords: (44)
+Performance_Keywords: (0)
+Performance_Performers: (0)
+Performance_Recording: (0)
+Performances: (8)
+Performer_Keywords: (0)
+Permission_Types: (0)
+Profile_Images: (12)
+Role_Type: (10)
+Transcription_Recording: (0)
+Transcription_SRT: (0)
+U_Values: (151)
+User_Addresses: (0)
+User_Genders: (0)
+User_Login_Policies: (0)
+User_Names: (7)
+User_Phone_Numbers: (0)
+User_Roles: (8)
+wp_commentmeta: (0)
+wp_comments: (1)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_options: (160)
+wp_postmeta: (1270)
+wp_posts: (188)
+wp_term_relationships: (122)
+wp_term_taxonomy: (11)
+wp_termmeta: (0)
+wp_terms: (11)
+wp_usermeta: (294)
+wp_users: (14)
+Removed '31' cache/transient rows
+
+INSERT DATA RUNTIME: 2.1989 sec.
+STEP-2 COMPLETE @ 12:27:44 - RUNTIME: 2.2346 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 12:28:23
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "ISC"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/var/www/wordpress"
+path_new______________: "/var/www/wordpress"
+siteurl_______________: "https://127.0.1.1"
+url_old_______________: "https://127.0.0.1"
+url_new_______________: "https://127.0.1.1"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "Event_Keywords"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "Event_Performances"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "Event_Performers"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "Events"__________________________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"\var\www\wordpress" ==============================> "/var/www/wordpress"
+	SEARCH  2:"\\var\\www\\wordpress" ===========================> "\/var\/www\/wordpress"
+	SEARCH  3:"%5Cvar%5Cwww%5Cwordpress" ========================> "%2Fvar%2Fwww%2Fwordpress"
+	SEARCH  4:"//127.0.0.1" =====================================> "//127.0.1.1"
+	SEARCH  5:"\/\/127.0.0.1" ===================================> "\/\/127.0.1.1"
+	SEARCH  6:"%2F%2F127.0.0.1" =================================> "%2F%2F127.0.1.1"
+	SEARCH  7:"http://127.0.1.1" ================================> "https://127.0.1.1"
+	SEARCH  8:"http:\/\/127.0.1.1" ==============================> "https:\/\/127.0.1.1"
+	SEARCH  9:"http%3A%2F%2F127.0.1.1" ==========================> "https%3A%2F%2F127.0.1.1"
+
+EVALUATE TABLE: "Keywords"________________________________________[ROWS:    44][PG:   1][SCAN:text columns]
+	SEARCH  1:"\var\www\wordpress" ==============================> "/var/www/wordpress"
+	SEARCH  2:"\\var\\www\\wordpress" ===========================> "\/var\/www\/wordpress"
+	SEARCH  3:"%5Cvar%5Cwww%5Cwordpress" ========================> "%2Fvar%2Fwww%2Fwordpress"
+	SEARCH  4:"//127.0.0.1" =====================================> "//127.0.1.1"
+	SEARCH  5:"\/\/127.0.0.1" ===================================> "\/\/127.0.1.1"
+	SEARCH  6:"%2F%2F127.0.0.1" =================================> "%2F%2F127.0.1.1"
+	SEARCH  7:"http://127.0.1.1" ================================> "https://127.0.1.1"
+	SEARCH  8:"http:\/\/127.0.1.1" ==============================> "https:\/\/127.0.1.1"
+	SEARCH  9:"http%3A%2F%2F127.0.1.1" ==========================> "https%3A%2F%2F127.0.1.1"
+
+EVALUATE TABLE: "Performance_Keywords"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "Performance_Performers"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "Performance_Recording"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "Performances"____________________________________[ROWS:     8][PG:   1][SCAN:text columns]
+	SEARCH  1:"\var\www\wordpress" ==============================> "/var/www/wordpress"
+	SEARCH  2:"\\var\\www\\wordpress" ===========================> "\/var\/www\/wordpress"
+	SEARCH  3:"%5Cvar%5Cwww%5Cwordpress" ========================> "%2Fvar%2Fwww%2Fwordpress"
+	SEARCH  4:"//127.0.0.1" =====================================> "//127.0.1.1"
+	SEARCH  5:"\/\/127.0.0.1" ===================================> "\/\/127.0.1.1"
+	SEARCH  6:"%2F%2F127.0.0.1" =================================> "%2F%2F127.0.1.1"
+	SEARCH  7:"http://127.0.1.1" ================================> "https://127.0.1.1"
+	SEARCH  8:"http:\/\/127.0.1.1" ==============================> "https:\/\/127.0.1.1"
+	SEARCH  9:"http%3A%2F%2F127.0.1.1" ==========================> "https%3A%2F%2F127.0.1.1"
+
+EVALUATE TABLE: "Performer_Keywords"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "Permission_Types"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "Profile_Images"__________________________________[ROWS:    12][PG:   1][SCAN:text columns]
+	SEARCH  1:"\var\www\wordpress" ==============================> "/var/www/wordpress"
+	SEARCH  2:"\\var\\www\\wordpress" ===========================> "\/var\/www\/wordpress"
+	SEARCH  3:"%5Cvar%5Cwww%5Cwordpress" ========================> "%2Fvar%2Fwww%2Fwordpress"
+	SEARCH  4:"//127.0.0.1" =====================================> "//127.0.1.1"
+	SEARCH  5:"\/\/127.0.0.1" ===================================> "\/\/127.0.1.1"
+	SEARCH  6:"%2F%2F127.0.0.1" =================================> "%2F%2F127.0.1.1"
+	SEARCH  7:"http://127.0.1.1" ================================> "https://127.0.1.1"
+	SEARCH  8:"http:\/\/127.0.1.1" ==============================> "https:\/\/127.0.1.1"
+	SEARCH  9:"http%3A%2F%2F127.0.1.1" ==========================> "https%3A%2F%2F127.0.1.1"
+
+EVALUATE TABLE: "Role_Type"_______________________________________[ROWS:    10][PG:   1][SCAN:text columns]
+	SEARCH  1:"\var\www\wordpress" ==============================> "/var/www/wordpress"
+	SEARCH  2:"\\var\\www\\wordpress" ===========================> "\/var\/www\/wordpress"
+	SEARCH  3:"%5Cvar%5Cwww%5Cwordpress" ========================> "%2Fvar%2Fwww%2Fwordpress"
+	SEARCH  4:"//127.0.0.1" =====================================> "//127.0.1.1"
+	SEARCH  5:"\/\/127.0.0.1" ===================================> "\/\/127.0.1.1"
+	SEARCH  6:"%2F%2F127.0.0.1" =================================> "%2F%2F127.0.1.1"
+	SEARCH  7:"http://127.0.1.1" ================================> "https://127.0.1.1"
+	SEARCH  8:"http:\/\/127.0.1.1" ==============================> "https:\/\/127.0.1.1"
+	SEARCH  9:"http%3A%2F%2F127.0.1.1" ==========================> "https%3A%2F%2F127.0.1.1"
+
+EVALUATE TABLE: "Transcription_Recording"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "Transcription_SRT"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "U_Values"________________________________________[ROWS:   151][PG:   1][SCAN:text columns]
+	SEARCH  1:"\var\www\wordpress" ==============================> "/var/www/wordpress"
+	SEARCH  2:"\\var\\www\\wordpress" ===========================> "\/var\/www\/wordpress"
+	SEARCH  3:"%5Cvar%5Cwww%5Cwordpress" ========================> "%2Fvar%2Fwww%2Fwordpress"
+	SEARCH  4:"//127.0.0.1" =====================================> "//127.0.1.1"
+	SEARCH  5:"\/\/127.0.0.1" ===================================> "\/\/127.0.1.1"
+	SEARCH  6:"%2F%2F127.0.0.1" =================================> "%2F%2F127.0.1.1"
+	SEARCH  7:"http://127.0.1.1" ================================> "https://127.0.1.1"
+	SEARCH  8:"http:\/\/127.0.1.1" ==============================> "https:\/\/127.0.1.1"
+	SEARCH  9:"http%3A%2F%2F127.0.1.1" ==========================> "https%3A%2F%2F127.0.1.1"
+
+EVALUATE TABLE: "User_Addresses"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "User_Genders"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "User_Login_Policies"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "User_Names"______________________________________[ROWS:     7][PG:   1][SCAN:text columns]
+	SEARCH  1:"\var\www\wordpress" ==============================> "/var/www/wordpress"
+	SEARCH  2:"\\var\\www\\wordpress" ===========================> "\/var\/www\/wordpress"
+	SEARCH  3:"%5Cvar%5Cwww%5Cwordpress" ========================> "%2Fvar%2Fwww%2Fwordpress"
+	SEARCH  4:"//127.0.0.1" =====================================> "//127.0.1.1"
+	SEARCH  5:"\/\/127.0.0.1" ===================================> "\/\/127.0.1.1"
+	SEARCH  6:"%2F%2F127.0.0.1" =================================> "%2F%2F127.0.1.1"
+	SEARCH  7:"http://127.0.1.1" ================================> "https://127.0.1.1"
+	SEARCH  8:"http:\/\/127.0.1.1" ==============================> "https:\/\/127.0.1.1"
+	SEARCH  9:"http%3A%2F%2F127.0.1.1" ==========================> "https%3A%2F%2F127.0.1.1"
+
+EVALUATE TABLE: "User_Phone_Numbers"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "User_Roles"______________________________________[ROWS:     8][PG:   1][SCAN:text columns]
+	SEARCH  1:"\var\www\wordpress" ==============================> "/var/www/wordpress"
+	SEARCH  2:"\\var\\www\\wordpress" ===========================> "\/var\/www\/wordpress"
+	SEARCH  3:"%5Cvar%5Cwww%5Cwordpress" ========================> "%2Fvar%2Fwww%2Fwordpress"
+	SEARCH  4:"//127.0.0.1" =====================================> "//127.0.1.1"
+	SEARCH  5:"\/\/127.0.0.1" ===================================> "\/\/127.0.1.1"
+	SEARCH  6:"%2F%2F127.0.0.1" =================================> "%2F%2F127.0.1.1"
+	SEARCH  7:"http://127.0.1.1" ================================> "https://127.0.1.1"
+	SEARCH  8:"http:\/\/127.0.1.1" ==============================> "https:\/\/127.0.1.1"
+	SEARCH  9:"http%3A%2F%2F127.0.1.1" ==========================> "https%3A%2F%2F127.0.1.1"
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"\var\www\wordpress" ==============================> "/var/www/wordpress"
+	SEARCH  2:"\\var\\www\\wordpress" ===========================> "\/var\/www\/wordpress"
+	SEARCH  3:"%5Cvar%5Cwww%5Cwordpress" ========================> "%2Fvar%2Fwww%2Fwordpress"
+	SEARCH  4:"//127.0.0.1" =====================================> "//127.0.1.1"
+	SEARCH  5:"\/\/127.0.0.1" ===================================> "\/\/127.0.1.1"
+	SEARCH  6:"%2F%2F127.0.0.1" =================================> "%2F%2F127.0.1.1"
+	SEARCH  7:"http://127.0.1.1" ================================> "https://127.0.1.1"
+	SEARCH  8:"http:\/\/127.0.1.1" ==============================> "https:\/\/127.0.1.1"
+	SEARCH  9:"http%3A%2F%2F127.0.1.1" ==========================> "https%3A%2F%2F127.0.1.1"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   160][PG:   1][SCAN:text columns]
+	SEARCH  1:"\var\www\wordpress" ==============================> "/var/www/wordpress"
+	SEARCH  2:"\\var\\www\\wordpress" ===========================> "\/var\/www\/wordpress"
+	SEARCH  3:"%5Cvar%5Cwww%5Cwordpress" ========================> "%2Fvar%2Fwww%2Fwordpress"
+	SEARCH  4:"//127.0.0.1" =====================================> "//127.0.1.1"
+	SEARCH  5:"\/\/127.0.0.1" ===================================> "\/\/127.0.1.1"
+	SEARCH  6:"%2F%2F127.0.0.1" =================================> "%2F%2F127.0.1.1"
+	SEARCH  7:"http://127.0.1.1" ================================> "https://127.0.1.1"
+	SEARCH  8:"http:\/\/127.0.1.1" ==============================> "https:\/\/127.0.1.1"
+	SEARCH  9:"http%3A%2F%2F127.0.1.1" ==========================> "https%3A%2F%2F127.0.1.1"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  1270][PG:   1][SCAN:text columns]
+	SEARCH  1:"\var\www\wordpress" ==============================> "/var/www/wordpress"
+	SEARCH  2:"\\var\\www\\wordpress" ===========================> "\/var\/www\/wordpress"
+	SEARCH  3:"%5Cvar%5Cwww%5Cwordpress" ========================> "%2Fvar%2Fwww%2Fwordpress"
+	SEARCH  4:"//127.0.0.1" =====================================> "//127.0.1.1"
+	SEARCH  5:"\/\/127.0.0.1" ===================================> "\/\/127.0.1.1"
+	SEARCH  6:"%2F%2F127.0.0.1" =================================> "%2F%2F127.0.1.1"
+	SEARCH  7:"http://127.0.1.1" ================================> "https://127.0.1.1"
+	SEARCH  8:"http:\/\/127.0.1.1" ==============================> "https:\/\/127.0.1.1"
+	SEARCH  9:"http%3A%2F%2F127.0.1.1" ==========================> "https%3A%2F%2F127.0.1.1"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   188][PG:   1][SCAN:text columns]
+	SEARCH  1:"\var\www\wordpress" ==============================> "/var/www/wordpress"
+	SEARCH  2:"\\var\\www\\wordpress" ===========================> "\/var\/www\/wordpress"
+	SEARCH  3:"%5Cvar%5Cwww%5Cwordpress" ========================> "%2Fvar%2Fwww%2Fwordpress"
+	SEARCH  4:"//127.0.0.1" =====================================> "//127.0.1.1"
+	SEARCH  5:"\/\/127.0.0.1" ===================================> "\/\/127.0.1.1"
+	SEARCH  6:"%2F%2F127.0.0.1" =================================> "%2F%2F127.0.1.1"
+	SEARCH  7:"http://127.0.1.1" ================================> "https://127.0.1.1"
+	SEARCH  8:"http:\/\/127.0.1.1" ==============================> "https:\/\/127.0.1.1"
+	SEARCH  9:"http%3A%2F%2F127.0.1.1" ==========================> "https%3A%2F%2F127.0.1.1"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:   122][PG:   1][SCAN:text columns]
+	SEARCH  1:"\var\www\wordpress" ==============================> "/var/www/wordpress"
+	SEARCH  2:"\\var\\www\\wordpress" ===========================> "\/var\/www\/wordpress"
+	SEARCH  3:"%5Cvar%5Cwww%5Cwordpress" ========================> "%2Fvar%2Fwww%2Fwordpress"
+	SEARCH  4:"//127.0.0.1" =====================================> "//127.0.1.1"
+	SEARCH  5:"\/\/127.0.0.1" ===================================> "\/\/127.0.1.1"
+	SEARCH  6:"%2F%2F127.0.0.1" =================================> "%2F%2F127.0.1.1"
+	SEARCH  7:"http://127.0.1.1" ================================> "https://127.0.1.1"
+	SEARCH  8:"http:\/\/127.0.1.1" ==============================> "https:\/\/127.0.1.1"
+	SEARCH  9:"http%3A%2F%2F127.0.1.1" ==========================> "https%3A%2F%2F127.0.1.1"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    11][PG:   1][SCAN:text columns]
+	SEARCH  1:"\var\www\wordpress" ==============================> "/var/www/wordpress"
+	SEARCH  2:"\\var\\www\\wordpress" ===========================> "\/var\/www\/wordpress"
+	SEARCH  3:"%5Cvar%5Cwww%5Cwordpress" ========================> "%2Fvar%2Fwww%2Fwordpress"
+	SEARCH  4:"//127.0.0.1" =====================================> "//127.0.1.1"
+	SEARCH  5:"\/\/127.0.0.1" ===================================> "\/\/127.0.1.1"
+	SEARCH  6:"%2F%2F127.0.0.1" =================================> "%2F%2F127.0.1.1"
+	SEARCH  7:"http://127.0.1.1" ================================> "https://127.0.1.1"
+	SEARCH  8:"http:\/\/127.0.1.1" ==============================> "https:\/\/127.0.1.1"
+	SEARCH  9:"http%3A%2F%2F127.0.1.1" ==========================> "https%3A%2F%2F127.0.1.1"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    11][PG:   1][SCAN:text columns]
+	SEARCH  1:"\var\www\wordpress" ==============================> "/var/www/wordpress"
+	SEARCH  2:"\\var\\www\\wordpress" ===========================> "\/var\/www\/wordpress"
+	SEARCH  3:"%5Cvar%5Cwww%5Cwordpress" ========================> "%2Fvar%2Fwww%2Fwordpress"
+	SEARCH  4:"//127.0.0.1" =====================================> "//127.0.1.1"
+	SEARCH  5:"\/\/127.0.0.1" ===================================> "\/\/127.0.1.1"
+	SEARCH  6:"%2F%2F127.0.0.1" =================================> "%2F%2F127.0.1.1"
+	SEARCH  7:"http://127.0.1.1" ================================> "https://127.0.1.1"
+	SEARCH  8:"http:\/\/127.0.1.1" ==============================> "https:\/\/127.0.1.1"
+	SEARCH  9:"http%3A%2F%2F127.0.1.1" ==========================> "https%3A%2F%2F127.0.1.1"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:   294][PG:   1][SCAN:text columns]
+	SEARCH  1:"\var\www\wordpress" ==============================> "/var/www/wordpress"
+	SEARCH  2:"\\var\\www\\wordpress" ===========================> "\/var\/www\/wordpress"
+	SEARCH  3:"%5Cvar%5Cwww%5Cwordpress" ========================> "%2Fvar%2Fwww%2Fwordpress"
+	SEARCH  4:"//127.0.0.1" =====================================> "//127.0.1.1"
+	SEARCH  5:"\/\/127.0.0.1" ===================================> "\/\/127.0.1.1"
+	SEARCH  6:"%2F%2F127.0.0.1" =================================> "%2F%2F127.0.1.1"
+	SEARCH  7:"http://127.0.1.1" ================================> "https://127.0.1.1"
+	SEARCH  8:"http:\/\/127.0.1.1" ==============================> "https:\/\/127.0.1.1"
+	SEARCH  9:"http%3A%2F%2F127.0.1.1" ==========================> "https%3A%2F%2F127.0.1.1"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:    14][PG:   1][SCAN:text columns]
+	SEARCH  1:"\var\www\wordpress" ==============================> "/var/www/wordpress"
+	SEARCH  2:"\\var\\www\\wordpress" ===========================> "\/var\/www\/wordpress"
+	SEARCH  3:"%5Cvar%5Cwww%5Cwordpress" ========================> "%2Fvar%2Fwww%2Fwordpress"
+	SEARCH  4:"//127.0.0.1" =====================================> "//127.0.1.1"
+	SEARCH  5:"\/\/127.0.0.1" ===================================> "\/\/127.0.1.1"
+	SEARCH  6:"%2F%2F127.0.0.1" =================================> "%2F%2F127.0.1.1"
+	SEARCH  7:"http://127.0.1.1" ================================> "https://127.0.1.1"
+	SEARCH  8:"http:\/\/127.0.1.1" ==============================> "https:\/\/127.0.1.1"
+	SEARCH  9:"http%3A%2F%2F127.0.1.1" ==========================> "https%3A%2F%2F127.0.1.1"
+--------------------------------------
+SCANNED:	Tables:35 	|	 Rows:2314 	|	 Cells:12572 
+UPDATED:	Tables:5 	|	 Rows:148 	|	 Cells:148 
+ERRORS:		0 
+RUNTIME:	0.432300 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => simple-google-recaptcha/simple-google-recaptcha.php
+    [1] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 12:28:23 - RUNTIME: 0.5091 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================
